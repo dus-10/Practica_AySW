@@ -16,3 +16,9 @@ class Reserva(BaseModel):
     hora_fin: str
     personas: int
     estado: str
+
+
+@app.post("/reservas")
+async def crear_reserva(reserva: Reserva):
+    reservas.append(reserva)
+    return {"mensaje": "Reserva creada correctamente", "reserva": reserva}
