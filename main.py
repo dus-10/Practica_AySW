@@ -22,3 +22,9 @@ class Reserva(BaseModel):
 async def crear_reserva(reserva: Reserva):
     reservas.append(reserva)
     return {"mensaje": "Reserva creada correctamente", "reserva": reserva}
+
+
+    # GET - Listar reservas
+@app.get("/reservas", response_model=List[Reserva])
+async def listar_reservas():
+    return reservas
