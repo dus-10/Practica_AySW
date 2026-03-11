@@ -1,0 +1,42 @@
+[
+  {
+    "id_reserva": 1,
+    "id_sala": 101,
+    "id_usuario": 25,
+    "fecha": "2026-03-15",
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "personas": 10,
+    "estado": "confirmada"
+  },
+  {
+    "id_reserva": 2,
+    "id_sala": 102,
+    "id_usuario": 30,
+    "fecha": "2026-03-15",
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "personas": 6,
+    "estado": "pendiente"
+  },
+  {
+    "id_reserva": 3,
+    "id_sala": 201,
+    "id_usuario": 12,
+    "fecha": "2026-03-16",
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "personas": 8,
+    "estado": "confirmada"
+  },
+  {
+    "id_reserva": 4,
+    "id_sala": 105,
+    "id_usuario": 40,
+    "fecha": "2026-03-17",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "personas": 5,
+    "estado": "cancelada"
+  }
+]

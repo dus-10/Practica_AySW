@@ -17,6 +17,9 @@ class Reserva(BaseModel):
     personas: int
     estado: str
 
+@app.get("/")
+async def inicio():
+    return {"mensaje": "API de reservas funcionando"}
 
 @app.post("/reservas")
 async def crear_reserva(reserva: Reserva):
